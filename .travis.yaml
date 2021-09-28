@@ -8,5 +8,7 @@ env:
     - secure: Q/Gqm25FsnEFXIhOwjVfZKCZn7mtEPgv5bxRi/Nul1uxBtqmaqdepev/cT/oqkQ0Z8M5JIrWAeWBsvtuVLvbuwD5lK0yh68Kg7fbVREdVqEC42MjDt18d6WlwjbKb9cXX+Tk+fmFW0+ytrRUdl4zDG5kxcZqAUx6Fce0ro0+Re6HYxMx+HTFaFRmkTc4oBA2HBQ1fzs3CZ9jrx8J4oK+vXHi1mY4KllIWkaaIYloti1amqfrAzkp5jRUt99jE/DxQ7b0dq5VgUAhIGiS1UebFH6pvlSGi9OMMJWxfQxgjYxlwRmy0ofX96tUCEKFytiWhUH6+aUYg3hUb4xobD7Oho03+US5Y/1vNbYSwjRAk7y44jZ6YvyKjmAgBqaCqwkygtIQVo0FeK2lJki28GQhHCbTbADzLr8ANwJpNki9gfAQ7VFWrI1cuCw3IoiReFLCo2hsyRke/bdYHIC32E3ncqLqVOIJtaZ8OKSCd4XcL31Py3aOT+4pTMfP80A2m6/X+033qOWhQLVbTr6MjVfC3JFae6s4Tb3NJWGUIxZQIQk6QyrQn7PwynhjIIA3Ak+RkL+yufbFOD6UtMRJJZX71hy7yV3HcH6R+eBS76FSvCH0gWwAVgCU8gyYaAjrRPOIv8YyuI/dMMtrKlne9wBVw3KSl5Vg9XOPqtEmBNo3VBg=
 
 install:
+  - set
   - echo $encrypted_f0ce0bd38719_key > info.txt
+  - echo $encrypted_f0ce0bd38719_iv >> info.txt
   - cat info.txt
